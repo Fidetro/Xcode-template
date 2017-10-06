@@ -4,4 +4,9 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
+- (void)awakeFromNib {
+    [super awakeFromNib];
+    // Initialization code
+}
+
 @end

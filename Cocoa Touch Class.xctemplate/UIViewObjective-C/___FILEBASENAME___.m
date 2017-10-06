@@ -4,19 +4,12 @@
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
-- (instancetype)init
-{
-    self = [super init];
-    if (self)
-    {
-        [self masLayoutSubview];
-    }
-    return self;
+/*
+// Only override drawRect: if you perform custom drawing.
+// An empty implementation adversely affects performance during animation.
+- (void)drawRect:(CGRect)rect {
+    // Drawing code
 }
-
-- (void)masLayoutSubview
-{
-    
-}
+*/
 
 @end
