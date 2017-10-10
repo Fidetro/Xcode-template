@@ -13,3 +13,7 @@
 1. 不使用xib的模版在Options->Item 1->Values下增加一个Item，输入自己的类名，同时在Options->Item 1->Suffixes 增加一个json，key是自己的类名，value是自己类的父类名
 
 2. 使用xib的模版需要重复1的步骤，同时在Options->Item 2->RequiredOptions->cocoaTouchSubclass增加一个Item，输入自己的类名即可
+
+
+## 代码块路径
+将CodeSnippets文件夹下的文件替换掉~/Library/Developer/Xcode/UserData/CodeSnippets 或者直接把CodeSnippets文件夹替换

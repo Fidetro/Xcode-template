@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>defineRect</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>Preprocessor</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>define originX origin.x
+#define originY origin.y
+#define sizeWidth size.width
+#define sizeHeight size.height
+#define boundsX bounds.origin.x
+#define boundsY bounds.origin.y
+#define boundsWidth bounds.size.width
+#define boundsHeight bounds.size.height
+#define frameX frame.origin.x
+#define frameY frame.origin.y
+#define frameWidth frame.size.width
+#define frameHeight frame.size.height
+#define ViewX self.view.frame.origin.x
+#define ViewY self.view.frame.origin.y
+#define ViewWidth self.view.frame.size.width
+#define ViewHeight self.view.frame.size.height
+#define GetViewWidth(view)    view.frame.size.width
+#define GetViewHeight(view)   view.frame.size.height
+#define GetViewX(view)        view.frame.origin.x
+#define GetViewY(view)        view.frame.origin.y</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>BD905F4C-9829-4D25-9FD7-4E5397412213</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>boundsOrframe</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>defineBoundsOrFrame</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

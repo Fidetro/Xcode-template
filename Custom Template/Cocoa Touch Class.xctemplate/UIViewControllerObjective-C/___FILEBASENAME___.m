@@ -7,11 +7,14 @@
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
-
+#pragma mark - life cycle
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
+#pragma mark - response event
+
+#pragma mark - lazy and get
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
