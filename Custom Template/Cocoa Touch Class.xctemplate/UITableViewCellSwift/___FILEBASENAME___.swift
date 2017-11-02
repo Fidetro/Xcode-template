@@ -4,7 +4,7 @@ import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
-    static func dequeueReusableWithTableView(tableView:UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
+    static func dequeueReusable(WithTableView tableView:UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
         let reusableCell = tableView.dequeueReusableCell(withIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier())
         if  let cell = reusableCell {
             return cell as! ___FILEBASENAMEASIDENTIFIER___
