@@ -13,7 +13,7 @@
     }
     return self;
 }
-
+#pragma mark - get and set
 - (void)masLayoutSubview
 {
     
