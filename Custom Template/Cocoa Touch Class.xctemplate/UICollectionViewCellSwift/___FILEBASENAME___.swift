@@ -9,13 +9,9 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         snpLayoutSubview()
     }
     
-    override init(frame: CGRect) {
-        super.init(frame: frame)
-        snpLayoutSubview()
-    }
     
     static func dequeueReusable(withCollectionView collectionView:UICollectionView,for indexPath:IndexPath) -> ___FILEBASENAMEASIDENTIFIER___ {
-        return collectionView.dequeueReusableCell(withReuseIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier(), for: indexPath) as! ___FILEBASENAMEASIDENTIFIER___
+        return collectionView.dequeueReusableCell(withReuseIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier, for: indexPath) as! ___FILEBASENAMEASIDENTIFIER___
     }
   
     
@@ -27,7 +23,5 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         fatalError("init(coder:) has not been implemented")
     }
     
-    static func identifier() -> String {
-        return "k___FILEBASENAMEASIDENTIFIER___Identifier"
-    }
+
 }

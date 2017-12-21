@@ -3,13 +3,15 @@
 import UIKit
 
 class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
+    
+    static let identifier = "k___FILEBASENAMEASIDENTIFIER___Identifier"
 
     static func dequeueReusable(WithTableView tableView:UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
         let reusableCell = tableView.dequeueReusableCell(withIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier())
         if  let cell = reusableCell {
             return cell as! ___FILEBASENAMEASIDENTIFIER___
         }else{
-            let cell = ___FILEBASENAMEASIDENTIFIER___.init(style: .default, reuseIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier())
+            let cell = ___FILEBASENAMEASIDENTIFIER___.init(style: .default, reuseIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier)
             return cell
         }
     }
@@ -28,9 +30,6 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         fatalError("init(coder:) has not been implemented")
     }
     
-    static func identifier() -> String {
-        return "k___FILEBASENAMEASIDENTIFIER___Identifier"
-    }
     
     override func awakeFromNib() {
         super.awakeFromNib()
