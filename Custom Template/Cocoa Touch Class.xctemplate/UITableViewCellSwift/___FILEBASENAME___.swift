@@ -7,7 +7,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     static let identifier = "k___FILEBASENAMEASIDENTIFIER___Identifier"
 
     static func dequeueReusable(WithTableView tableView:UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
-        let reusableCell = tableView.dequeueReusableCell(withIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier())
+        let reusableCell = tableView.dequeueReusableCell(withIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier)
         if  let cell = reusableCell {
             return cell as! ___FILEBASENAMEASIDENTIFIER___
         }else{

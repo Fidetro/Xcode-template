@@ -12,7 +12,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
             for: indexPath) as! ___FILEBASENAMEASIDENTIFIER___
     }
     override init(frame: CGRect) {
-        super.init(frame: CGRect.zero)
+        super.init(frame: frame)
         snpLayoutSubview()
     }
     
