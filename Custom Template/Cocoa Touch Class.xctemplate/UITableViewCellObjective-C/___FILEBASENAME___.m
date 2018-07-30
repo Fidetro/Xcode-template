@@ -23,7 +23,7 @@ NSString *const k___FILEBASENAMEASIDENTIFIER___Identifier = @"k___FILEBASENAMEAS
     if (self)
     {
         self.selectionStyle = UITableViewCellSelectionStyleNone;
-        self.contentView.backgroundColor = [UIColor clearColor];
+        self.backgroundColor = [UIColor clearColor];
         [self masLayoutSubview];
     }
     return self;
@@ -33,16 +33,5 @@ NSString *const k___FILEBASENAMEASIDENTIFIER___Identifier = @"k___FILEBASENAMEAS
 {
 }
 
-
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
-}
-
-- (void)setSelected:(BOOL)selected animated:(BOOL)animated {
-    [super setSelected:selected animated:animated];
-
-    // Configure the view for the selected state
-}
 
 @end
