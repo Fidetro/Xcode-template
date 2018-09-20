@@ -7,6 +7,7 @@
 @end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
+
 #pragma mark - life cycle
 - (void)viewDidLoad
 {
@@ -17,10 +18,5 @@
 
 #pragma mark - private method
 #pragma mark - get and set
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-}
 
 @end
