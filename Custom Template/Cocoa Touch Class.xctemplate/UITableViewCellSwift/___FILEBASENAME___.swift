@@ -21,15 +21,15 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         snpLayoutSubview()
     }
     
-    func snpLayoutSubview() {
-        
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
-    
     
 }
 
+// MARK: setup view
 extension ___FILEBASENAMEASIDENTIFIER___ {
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+    func snpLayoutSubview() {
+        
     }
 }
