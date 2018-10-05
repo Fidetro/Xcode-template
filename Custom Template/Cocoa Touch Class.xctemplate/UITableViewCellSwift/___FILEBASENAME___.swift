@@ -6,7 +6,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     
     static let identifier = "k___FILEBASENAMEASIDENTIFIER___Identifier"
 
-    static func dequeueReusable(WithTableView tableView:UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
+    static func dequeueReusable(with tableView:UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
         let reusableCell = tableView.dequeueReusableCell(withIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier)
         if  let cell = reusableCell as? ___FILEBASENAMEASIDENTIFIER___ {
             return cell
@@ -16,7 +16,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         }
     }
     
-    override init(style: UITableViewCellStyle, reuseIdentifier: String?) {
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
         super.init(style: style, reuseIdentifier: reuseIdentifier)
         snpLayoutSubview()
     }
@@ -26,17 +26,10 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     }
     
     
+}
+
+extension ___FILEBASENAMEASIDENTIFIER___ {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-    
-    override func awakeFromNib() {
-        super.awakeFromNib()
-    }
-    
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-    }
-
 }

@@ -10,7 +10,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
     }
     
     
-    static func dequeueReusable(withCollectionView collectionView:UICollectionView,for indexPath:IndexPath) -> ___FILEBASENAMEASIDENTIFIER___ {
+    static func dequeueReusable(with collectionView:UICollectionView,for indexPath:IndexPath) -> ___FILEBASENAMEASIDENTIFIER___ {
         return collectionView.dequeueReusableCell(withReuseIdentifier: ___FILEBASENAMEASIDENTIFIER___.identifier, for: indexPath) as! ___FILEBASENAMEASIDENTIFIER___
     }
   
@@ -19,9 +19,14 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         
     }
     
+
+    
+
+}
+
+//MARK: required
+extension ___FILEBASENAMEASIDENTIFIER___ {
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
-    
-
 }
