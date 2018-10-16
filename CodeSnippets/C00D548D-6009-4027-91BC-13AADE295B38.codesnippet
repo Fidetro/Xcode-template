@@ -10,12 +10,7 @@
 	</array>
 	<key>IDECodeSnippetContents</key>
 	<string>    lazy var tableView: UITableView = {
-        var tableView =    lazy var tableView: UITableView = {
-            var tableView = UITableView.init(frame: .zero, style: .grouped)
-            tableView.backgroundColor = .clear
-            tableView.separatorStyle = .none
-            return tableView
-        }() UITableView.init(frame: .zero, style: .grouped)
+        let tableView = UITableView.init(frame: .zero, style: .grouped)
         tableView.backgroundColor = .clear
         tableView.separatorStyle = .none
         return tableView
