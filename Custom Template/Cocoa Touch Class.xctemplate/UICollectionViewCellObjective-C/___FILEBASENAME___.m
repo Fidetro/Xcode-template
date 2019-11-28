@@ -11,7 +11,7 @@ NSString *const k___FILEBASENAMEASIDENTIFIER___Identifier = @"k___FILEBASENAMEAS
     self = [super initWithFrame:frame];
     if (self)
     {
-        self.backgroundColor = [UIColor clearColor];
+        self.contentView.backgroundColor = [UIColor clearColor];
         [self masLayoutSubview];
     }
     return self;
