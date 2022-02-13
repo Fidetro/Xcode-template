@@ -3,7 +3,7 @@ path="/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Dev
 if [ ! -d"${path}" ];then
 echo "文件夹不存在"
 else
-sudo cp -R ./Custom\ Template/Cocoa\ Touch\ Class.xctemplate/ $path
+sudo cp -r ./Custom\ Template/Cocoa\ Touch\ Class.xctemplate/. $path
 git add *
 git commit -m "upgrade Template"
 git push origin master
